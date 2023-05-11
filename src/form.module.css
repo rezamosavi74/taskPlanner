@@ -1,0 +1,76 @@
+.toDoForm{
+    min-height: 100vh;
+    width: 400px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    background: radial-gradient(#007485, transparent);
+    padding: 50px 35px;
+    margin: auto;
+}
+.toDoForm *{
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+}
+.toDoForm .alert {
+    float: left;
+}
+.toDoForm h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.toDoForm span{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #711717;
+}
+.toDoForm input:not([type=checkbox]), .toDoForm select, .toDoForm textarea{
+    display: block;
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0;
+}
+.toDoForm select {
+    padding: 0 10px;
+}
+.toDoForm input[type=datetime-local] {
+    padding: 0 10px;
+    width: 40%;
+}
+.toDoForm textarea {
+    height: auto;
+}
+.toDoForm input::placeholder, .toDoForm textarea::placeholder {
+    color: #292929;
+    padding-left: 10px;
+}
+.toDoForm div.check-box {
+    text-align: left;
+}
+.toDoForm .submit{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ebebeb;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.toDoForm .submit:hover {
+    background: linear-gradient(#007485,#051621);
+    color: #ffffff;
+}
